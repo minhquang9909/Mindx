@@ -1,0 +1,198 @@
+@media (max-width: 1023px) {
+    nav {
+        .menu {
+            display: flex;
+        }
+        .tag {
+            display: none;
+        }
+    }
+
+    .phan1 {
+        flex-direction: column-reverse;
+        
+        .p1 {
+            width: 100%;
+            margin-top: 10px;
+            align-items: center;
+
+            .chu1 {
+                width: 700px;
+                text-align: center;
+                font-size: 63px;
+            }
+            .chu2 {
+                width: 895px;
+                text-align: center;
+                font-size: 18px;
+               
+            }
+        }
+
+        .p2 {
+            width: 772px;
+            height: 713px;
+            justify-content: space-evenly;
+            justify-items: center;
+
+
+
+            .p2-layer {
+                width: 772px;
+                object-fit: contain;
+            }
+
+            .p2-0 {
+                width: 575px;
+                height: 632px;
+                justify-content: space-between;
+                justify-items: center;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: 0;
+                
+                .trai {
+                width: 272px;
+                height: 632px;
+                margin: 0;
+                }
+
+                .p2a3 {
+                width: 45%;
+                height: auto;
+                margin: 0;
+            }
+                
+
+            }
+            
+           
+            .p2-1 {
+                margin-top: 432px;
+                margin-left: 653px
+            }
+            .p2-2 {
+                margin-top: 580px;
+                margin-left: 340px;
+            }
+
+            .p2-3 {
+                margin-top: 325px;
+                margin-left: -560px;
+            }
+
+
+        }
+
+    }
+
+}
+
+@media (max-width: 430px) {
+    nav {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 5px;
+        .menu {
+            display: flex;
+        }
+        .tag {
+            display: none;
+        }
+        .nut {
+            display: none;;
+        }
+    }
+
+    .phan1 {
+        flex-direction: column-reverse;
+        
+        .p1 {
+            width: 100%;
+            margin-top: 10px;
+            align-items: center;
+
+            .chu1 {
+                width: 398px;
+                text-align: center;
+                font-size: 40px;
+            }
+            .chu2 {
+                width: 398px;
+                text-align: center;
+                font-size: 16px;
+               
+            }
+        }
+
+        .p2 {
+            width: 396px;
+            height: 366px;
+            justify-content: space-evenly;
+            justify-items: center;
+
+
+
+            .p2-layer {
+                width: 396px;
+                height: 147px;
+                object-fit: contain;
+            }
+
+            .p2-0 {
+                width: 295px;
+                height: 324px;
+                justify-content: space-between;
+                justify-items: center;
+                align-items: center;
+                margin-top: 30px;
+                margin-left: 0;
+                
+                .trai {
+                width: 139px;
+                height: 324px;
+                margin: 0;
+                }
+
+                .p2a3 {
+                width: 45%;
+                height: auto;
+                margin: 0;
+                }
+            }
+
+            img.p2-2-1 {
+                width: 16px;
+                height: 16px;
+            }
+            img.p2-1-1 {
+                width: 12px;
+                height: 12px;
+            }
+            
+            .p2-1 {
+                width: 85px;
+                height: 29px;
+                font-size: 7px;
+                margin-top: 242px;
+                margin-left: 304px
+            }
+            .p2-2 {
+                width: 32px;
+                height: 32px;
+                margin-top: 305px;
+                margin-left: 144px;
+            }
+            .p2-3 {
+                width: 32px;
+                height: 32px;
+                margin-top: 167px;
+                margin-left: -290px;
+            }
+
+
+        }
+
+    }
+
+}
