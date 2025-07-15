@@ -34,10 +34,10 @@ var n = prompt('Nhập n: ');
 var S = 0;
 for (let i = 1; i <= n; i++) {
     S = i + Math.sqrt(S);
-} console.log(S);
+} console.log(Math.sqrt(S));
 // -------------------7--------------------
 var n = prompt('Nhập n: ');
 var S = 0;
-for (let i = n; i > 0; i--) {
+for (let i = n; i >= 0; i--) {
     S = i + Math.sqrt(S);
 } console.log(S);
